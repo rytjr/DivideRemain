@@ -23,7 +23,7 @@ public class DivideReamin {
 			return A % C;
 		}
 		
-		long temp = pow(A, exponent / 2);s
+		long temp = pow(A, exponent / 2);
 		if(exponent % 2 == 1) {
 			return (temp * temp % C) * A % C;
 		}
